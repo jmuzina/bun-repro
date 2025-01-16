@@ -1,0 +1,14 @@
+{
+  "name": "jmuzina-bin-script-execution",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "module": "index.js",
+  "scripts": {
+    "bin-ts": "bun run bin-script-test-ts",
+    "bin-js": "bun run bin-script-test-js"
+  },
+  "dependencies": {
+    "jmuzina-bin-script-definitions": "0.0.1"
+  }
+}

@@ -1,12 +1,12 @@
 {
-  "name": "bin-script-mac",
+  "name": "jmuzina-bin-script-definitions",
   "private": true,
   "version": "0.0.1",
   "type": "module",
-  "module": "dist/esm/serve-express.js",
+  "module": "dist/esm/log.js",
   "bin": {
-    "bun-script-mac-test-ts": "dist/esm/serve-express.js",
-    "bun-script-mac-test-js": "src/serve-express-js.js"
+    "bin-script-test-ts": "dist/esm/log.js",
+    "bin-script-test-js": "src/log-js.js"
   },
   "scripts": {
     "build": "tsc",
