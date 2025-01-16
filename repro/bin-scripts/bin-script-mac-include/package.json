@@ -1,0 +1,13 @@
+{
+  "name": "bin-script-mac-include",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "module": "index.js",
+  "scripts": {
+    "call-bin-from-other-package": "bun run bun-script-mac-test"
+  },
+  "dependencies": {
+    "bin-script-mac": "0.0.1"
+  }
+}
